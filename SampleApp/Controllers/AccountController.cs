@@ -39,7 +39,7 @@ namespace SampleApp.Controllers
             {
                 return RedirectToLocal(returnUrl);
             }
-            // This is a sample commant which are inserted online form my computer
+            // This is a sample commant which are inserted online form my computer committed online
             // If we got this far, something failed, redisplay form
             ModelState.AddModelError("", "The user name or password provided is incorrect.");
             return View(model);
