@@ -53,7 +53,7 @@ namespace SampleApp.Controllers
         public ActionResult LogOff()
         {
             WebSecurity.Logout();
-
+            // These are comments done from local computer
             return RedirectToAction("Index", "Home");
         }
 
